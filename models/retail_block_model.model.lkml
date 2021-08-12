@@ -14,10 +14,10 @@ explore: transactions {
     }
   }
 
-  access_filter: {
-    field: stores.name
-    user_attribute: store
-  }
+  # access_filter: {
+  #   field: stores.name
+  #   user_attribute: store
+  # }
 
   join: transactions__line_items {
     relationship: one_to_many
