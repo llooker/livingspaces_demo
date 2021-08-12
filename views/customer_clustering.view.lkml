@@ -103,7 +103,7 @@ view: customer_clustering_prediction {
     sql: ${TABLE}.customer_segment ;;
     order_by_field: centroid_id
     link: {
-      url: "/dashboards/UXtbRLMDVqH7xFkHKRHvbr?Customer%20Segment={{value | encode_uri}}&Date%20Range={{ _filters['transactions.date_comparison_filter'] | url_encode }}"
+      url: "/dashboards/6?Customer%20Segment={{value | encode_uri}}&Date%20Range={{ _filters['transactions.date_comparison_filter'] | url_encode }}"
       label: "Drill into {{rendered_value}}"
     }
   }

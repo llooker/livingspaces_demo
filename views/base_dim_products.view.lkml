@@ -23,7 +23,7 @@ view: products {
     link: {
       label: "{{value}} Item Dynamics"
       icon_url: "https://i.imgur.com/W4tVGrj.png"
-      url: "/dashboards/Ipxk660N88jaUxsHolxRts?Focus%20Category={{value | encode_uri}}&Minimum%20Purchase%20Frequency="
+      url: "/dashboards/7?Focus%20Category={{value | encode_uri}}&Minimum%20Purchase%20Frequency="
     }
     action: {
       label: "Text/Call {{rendered_value}} Category Manager"
